@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let nhiet = +prompt("mơi nhập nhiệt độ")
+    let i=1
+    while (i<2 ){
+        if(nhiet>20 && nhiet<100){
+            document.write("nhiệt độ của bạn là " + nhiet + "thích hợp để ngủ")
+            i++;
+        }
+        else if (nhiet <20){
+            nhiet = +prompt('tăng hộ cái nhiệt lên bạn ơi')
+        }
+         else   nhiet = +prompt('giảm hộ cái nhiệt xuống b ê')
+    }
+
+</script>
+</body>
+</html>
